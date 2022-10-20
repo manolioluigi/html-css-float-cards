@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .container{
     width: 70%;
     margin: auto;
 }
+
+/*logo*/
 
 h1{
     font-weight: bolder;
@@ -18,11 +20,15 @@ h1{
     padding-bottom: 3%;
 }
 
+/*testo superiore*/
+
 .text{
     font-size: 14px;
     text-align: center;
     padding: 2%;
 }
+
+/*carte*/
 
 .col img{
     float: left;
