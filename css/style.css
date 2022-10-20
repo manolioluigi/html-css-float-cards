@@ -13,5 +13,61 @@
 h1{
     font-weight: bolder;
     color: rgb(255, 0, 128);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
+.text{
+    font-size: 14px;
+    text-align: center;
+    padding: 2%;
+}
+
+.col img{
+    float: left;
+    vertical-align: middle;
+}
+
+img{
+    height: 80px;
+}
+
+.col{
+    color: white;
+    background-color: rgb(1, 1, 44);
+    width: calc(90% / 3 );
+    display: flex;
+    align-items:center;
+    box-shadow: 1px 1px 3px 1px rgb(0, 0, 0);
+    float: left;
+    margin: 2% 1%;
+}
+
+.col::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+span{
+    color: cyan;
+    font-size: 12px;
+}
+
+h2{
+    font-size: 19px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.colText{
+    padding-left: 2%;
+}
+
+.row{
+    width: 90%;
+    margin: auto;
+}
