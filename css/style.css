@@ -48,9 +48,16 @@ img{
     box-shadow: 1px 1px 3px 1px rgb(0, 0, 0);
     float: left;
     margin: 2% 1%;
+
 }
 
 .col::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row::after {
     content: "";
     clear: both;
     display: table;
